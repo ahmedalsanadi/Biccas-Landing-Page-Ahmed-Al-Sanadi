@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+/* pre defined --------------------*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Inter", sans-serif;
+}
+p {
+	
+	font-size: 1em;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 700;
+	line-height: 1.4;
+}
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.7em;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+	min-height: 100%;
+	line-height: 1.4;
+	font-size: 14.4px;
+}
+
+img {
+	overflow-clip-margin: content-box;
+	overflow: clip;
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	border: 0;
+}
+
+/* -- Re-usable classes------*/
+.w-inline-block {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.w-button {
+	color: #fff;
+	line-height: inherit;
+	cursor: pointer;
+	border: 0;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button-type-1 {
+	white-space: nowrap;
+	background-color: #54bd95;
+	border-radius: 1.8em;
+	padding: 0.9em 1.2em;
+	font-size: 1.2em;
+	transition: all 0.2s;
+	box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.button-type-1:hover {
+	outline-offset: 0px;
+	color: #54bd95;
+	background-color: #fff;
+	outline: 1px solid #54bd95;
+	transform: scale(1.05);
+}
+
+.button-2 {
+	background-color: #54bd95;
+	color: white;
+	border-radius: 1em;
+	padding: 0.5em 0.85em;
+	font-size: 1.2em;
+	font-weight: 600;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	display: inline-block;
+	line-height: inherit;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.button-2:hover {
+	outline-offset: 0px;
+	color: #54bd95;
+	background-color: #f2f5f2;
+	outline: 1px solid #54bd95;
+}
+.button {
+	font-size: 1.2em;
+}
+
+.section {
+	padding: 5em 10vw;
+}
+
+/* Styling starts----------------------------------------------------------------------------*/
+
+.section.navbar {
+	background-color: #f2f5f2;
+	background-image: radial-gradient(circle at 0 100%, #daefeb, #f2f5f2);
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-img {
+	/* logo */
+	width: 10vw;
+	max-width: none;
+}
+.nav-items{
+	display: flex;
+	gap: 10vw;
+	align-items: center;
+}
+.nav-links {
+	display: flex;
+	gap: 2em;
+	align-items: center;
+	line-height: 1.7;
+}
+.nav-links {
+	color: #a6a6a6;
+	font-size: 1.2em;
+	font-weight: 600;
+	transition: all 0.2s;
+}
+.nav-link {
+	color: #a6a6a6;
+	font-size: 1.2em;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 270ms ease-in-out;
+	text-decoration: none; /* Remove underline for better visual */
+}
+
+.nav-link:hover {
+	color: #191a15;
+	transform: scale(1.2);
+}
+
+.nav-actions {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.mobile-menu-toggle {
+	align-items: stretch;
+	display: none;
+}
+/* Hero section starts here ---------------------------------------------------------------------------------------*/
+.section.hero-section {
+	display: flex;
+	align-items: center;
+	background-color: #f2f5f2;
+	background-image: radial-gradient(circle at 0 0, #daefeb, #f2f5f2);
+}
+
+/* 1- hero left side --------------*/
+.hero-content {
+	width: 50%;
+}
+.hero-content .hero-heading {
+	font-size: 5em;
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+.hero-vector-image {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.paragraph {
+	color: #a6a6a6;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.hero-description {
+	width: 85%;
+	color: #191a15;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+/*   Try free trial  button*/
+
+.hero-actions { /* buuton holder */
+	grid-column-gap: 2em;
+	grid-row-gap: 2em;
+	align-items: center;
+	margin-top: 4em;
+	display: flex;
+}
+
+
+
+/* view Demo button */
+
+.link-block {
+	/* a */
+	grid-column-gap: 0.7em;
+	grid-row-gap: 0.7em;
+	border-radius: 2.4em;
+	align-items: center;
+	padding: 0.9em 1.8em;
+	transition: all 0.2s;
+	display: flex;
+	text-decoration: none;
+}
+
+.link-block:hover {
+	outline-offset: 0px;
+	outline: 1px solid #191a15;
+	transform: scale(1.05);
+}
+
+.play-img-icon {
+	width: 2vw; /* play vector img */
+	max-width: 28.8px;
+	max-height: 28.8px;
+	min-width: 17.6px;
+}
+
+/* 2- hero right side --------------------------------------------------------------------------*/
+/* Hero image  startdshere ----------------------------------------*/
+
+.hero-image-container {
+	/* div*/
+
+	width: 63%;
+	margin-right: -10vw;
+	margin-bottom: 10px;
+}
+.hero-image-content {
+	/* img middle big image*/
+	width: 100%;
+	max-width: none;
+}
+
+/* Hero section ends here ---------------------------------------------------------------------------------------*/
+
+/* collabs section starts here -----------------------*/
+.section.collabs-section {
+	background-color: #f2f5f2;
+	background-image: radial-gradient(circle at 0 100%, #daefeb, #f2f5f2);
+}
+.collabs-section-header /* h3*/ {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.collabs-logos {
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5em;
+	margin-top: 3em;
+}
+
+.collabs-logos-image {
+	width: 90%;
+}
+
+/* ------------------- media queries start here ----------------------------------------------------------------------*/
+@media only screen and (min-width: 1440px) {
+	body {
+		font-size: 14.4px;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+	body {
+		font-size: 14px;
+	}
+	.body {
+		font-size: 1vw;
+	}
+	/* nav section stars here --------------max-width: 991px------------*/
+	.nav-link:hover {
+		color: #a6a6a6;
+	}
+	.button-2:hover {
+		color: #f2f5f2;
+		background-color: #54bd95;
+		outline-width: 0;
+		outline-style: solid;
+	}
+
+	/* Hero section starts here ----------------max-width: 991px-------------------------------------------*/
+
+	.button-type-1:hover {
+		outline-offset: 0px;
+		color: #f2f5f2;
+		background-color: #54bd95;
+		outline: 0 solid #54bd95;
+		transform: none;
+	}
+
+	.link-block {
+		align-items: flex-end;
+	}
+
+	.link-block:hover {
+		outline-width: 0;
+		transform: none;
+	}
+	.link-block-2:hover {
+		border-bottom-style: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.body {
+		font-size: 2.5vw;
+	}
+	/* nav section stars here --------------max-width: 767px------------*/
+	.brand{
+		z-index: 200;
+		position: relative;
+	}
+	.nav-items{
+		z-index: 0;
+		height: 0;
+		background-color: #161c28;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding-left: 10vw;
+		padding-right: 10vw;
+		display: flex;
+		position: absolute;
+		top: 0%;
+		bottom: auto;
+		left: 0%;
+		right: 0%;
+		overflow: hidden;
+	}
+
+	.nav-links {
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.nav-actions {
+		width: 100%;
+		justify-content: center;
+	}
+	.nav-link {
+		width: 100%;
+		border-bottom: 1px solid #a6a6a6;
+	}
+	.nav-link.nav-link-button {
+		width: auto;
+		color: #f2f5f2;
+		background-color: #54bd95;
+		border-bottom-style: none;
+		border-radius: 1em;
+		flex: 0 auto;
+		padding: 0.5em 0.85em;
+	}
+
+	.logo-img {
+		width: 25vw;
+	}
+	.mobile-menu-toggle{
+		z-index: 200;
+		padding-top: 0.5em;
+		display: block;
+		position: relative;
+	}
+	.hamburger-button {
+		width: 2.4em;
+	}
+	/* ---hero section starts here max-width: 767px-----*/
+
+	.hero-content {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+	}
+
+	.hero-image-container {
+		display: none;
+	}
+
+	.hero-heading { /* h1*/
+		font-size: 4.6em;
+		font-weight: 600;
+		line-height: 0.5em;
+	}
+	.button-2 {
+		white-space: nowrap;
+	}
+
+	/* -- collabs-section -max-width: 767px-----*/
+
+	collabs-section-header {
+		/* h3*/
+		font-size: 1.7em;
+	}
+	.collabs-logos-image {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.body {
+		font-size: 3.5vw;
+	}
+	/* hero section starts here------- max-width: 479px */
+	.hero-content .hero-heading {
+		font-size: 3.3em;
+		font-weight: 900;
+		line-height: 1.2;
+	}
+
+	.hero-heading { /* h1*/
+		font-size: 2.8em;
+	}
+
+	.hero-description{
+		font-size: 1.2em;
+	}
+
+	.paragraph.link-paragraph {
+		white-space: nowrap;
+		font-size: 1.1em;
+	}
+	.button-type-1 {
+		font-size: 1.1em;
+	}
+
+	.link-block {
+		align-items: center;
+	}
+
+	.play-img-icon {
+		width: 10vw;
+	}
+
+	.button-type-2 {
+		width: 11em;
+	}
+
+	/* collabs hero --- --------------max-width: 479px */
+	.collabs-section-header {
+		/* h3*/
+		font-size: 1.5em;
+	}
+
+	.collabs-logos {
+		width: 96vw;
+		margin-left: -8vw;
+	}
+
+	.collabs-logos-image {
+		width: 15vw;
+	}
+}
