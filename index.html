@@ -2,241 +2,430 @@
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Biccas</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-     <link rel="stylesheet" href="css/normalize.css" />
-     <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biccas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="body">
-     <!--Nav Section Starts here ------------------------------------------------------------------------------------------------------------------>
-     <header class="section navbar">
-          <nav class="nav">
-            <div class="brand">
-              <a href="#" class="logo">
-                <img src="./images/BiccasLogo.svg" alt="Biccas Logo" class="logo-img">
-              </a>
+  <!--Nav Section Starts here ------------------------------------------------------------------------------------------------------------------>
+  <header class="section navbar">
+    <nav class="nav">
+      <div class="brand">
+        <a href="#" class="logo">
+          <img src="./images/BiccasLogo.svg" alt="Biccas Logo" class="logo-img">
+        </a>
+      </div>
+      <div class="nav-items">
+        <div class="links nav-links">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Product</a>
+          <a href="#" class="nav-link">FAQ</a>
+          <a href="#" class="nav-link">Blog</a>
+          <a href="#" class="nav-link">About Us</a>
+        </div>
+        <div class="nav-actions">
+          <a href="#" class="nav-link nav-link-button">Login</a>
+          <a href="#" class="button-2 w-button">Sign Up</a>
+        </div>
+      </div>
+      <div class="mobile-menu-toggle">
+        <div class="hamburger-button">
+          <img src="./images/hambarger.svg" alt="Menu Icon" class="hamburger-icon">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+  <!-----Hero Section Starts here -------------------------------------------------------------------------------------------------------------------->
+  <section class="section hero-section">
+    <div class="hero-text hero-content">
+      <h1 class="hero-heading">We're here to Increase your Productivity</h1>
+      <img class="hero-vector-image" src="./images/curveLine_VectorImg.svg" alt="">
+      <p class=" hero-description">
+        Let's make your work more organize and easily using the Taskio Dashboard
+        with many of the latest featuresin managing work every day.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="button-type-1 w-button">
+          Try Free Trial
+        </a>
+        <a href="#" class="link-block w-inline-block">
+          <div class="link-icon-holder">
+            <img src="./images/Play_vector_Icon.svg" alt="" class="play-img-icon">
+          </div>
+          <p class="paragraph link-paragraph">View Demo</p>
+        </a>
+      </div>
+    </div>
+    <figure class="hero-image-container">
+      <img src="./images/Orginal_combined_middle_img.png" sizes="(max-width: 767px) 100vw, 50vw"
+        srcset="./images/Combined_middle_img-p-500.png 500w, images/Combined_middle_img.png 710w" alt=""
+        class="hero-image-content">
+    </figure>
+  </section>
+
+
+  <!-- collabs section starts here -------------------------------------------------------------------------------------------------->
+  <section class="section collabs-section">
+    <h3 class=" collabs-section-header">More than 25,000 teams use Collabs</h3>
+    <figure class="collabs-logos">
+      <div class="collabs-icon"><img src="./images/unsplash.svg" class="collabs-logos-image"></div>
+      <div class="collabs-icon"><img src="./images/notion.svg" class="collabs-logos-image"></div>
+      <div class="collabs-icon"><img src="./images/intercom.svg" class="collabs-logos-image"></div>
+      <div class="collabs-icon"><img src="./images/descript.svg" class="collabs-logos-image"></div>
+      <div class="collabs-icon"><img src="./images/grammarly.svg" class="collabs-logos-image"></div>
+    </figure>
+  </section>
+
+  <!--Rating section starts here -------------------------------------------------------------------------------------------->
+  <section class="section rating">
+    <!-- Left side -->
+    <article class="rating-stars">
+      <h2 class="h2 rating-support-heading">How we support our <br>partner all over the world</h2>
+      <p class="paragraph rating-description">SaaS become a common delivery model for many business application,
+        including office software, messaging software, payroll processing software, DBMS software,
+        management software</p>
+      <ul class="ratings-list">
+        <li class="rating-item">
+          <div class="stars">
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+          </div>
+          <p class="paragraph rating-paragraph"><strong>4.9 </strong>/ 5 rating</p>
+          <p class="paragraph"><strong>Databricks</strong></p>
+        </li>
+        <li class="rating-item">
+          <div class="stars">
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
+            <div class="star-holder"><img src="./images/un-colored-star.svg" alt="Uncolored star"></div>
+          </div>
+          <p class="paragraph rating-paragraph"><strong>4.8 </strong>/ 5 rating</p>
+          <p class="paragraph"><strong>Chanalysis</strong></p>
+        </li>
+      </ul>
+    </article>
+
+    <!-- Right side -->
+    <div class="support-features">
+      <div class="support-item">
+        <div class="support-icon"><img src="./images/publishing-icon.svg" alt="Publishing icon" class="image-13"></div>
+        <div class="support-text">
+          <h4 class="heading-support">Publishing</h4>
+          <p class="paragraph">Plan, collaborate, and publishing your content that drives
+            meaningful engagement and growth for your brand</p>
+        </div>
+      </div>
+      <div class="support-item">
+        <div class="support-icon"><img src="./images/analytics-icon.svg" alt="Analytics icon" class="image-14"></div>
+        <div class="support-text">
+          <h4 class="heading-support">Analytics</h4>
+          <p class="paragraph">Analyze your performance and create gorgeous reports</p>
+        </div>
+      </div>
+      <div class="support-item">
+        <div class="support-icon"><img src="./images/engagement-icon.svg" alt="Engagement icon" class="image-15"></div>
+        <div class="support-text">
+          <h4 class="heading-support">Engagement</h4>
+          <p class="paragraph">Quickly navigate and engage with your audience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features section starts here  ---------------------------------------------------->
+  <article class="features-section section">
+    <div class="features-container">
+      <header class="features-header">
+        <h1 class="features-title features-title-centered">Our Features <br>you can get</h1>
+        <p class="features-description features-description-centered paragraph">We offer a variety of interesting
+          features that can help
+          increase your productivity at work and manage your projects easily.</p>
+
+        <a href="#" class="button-type-1 w-button">Get Started</a>
+      </header>
+      <div class="features-details">
+        <div class="features-item">
+          <figure class="features-icon">
+            <img src="./images/collabration-teams.svg" loading="lazy" alt="">
+          </figure>
+          <div class="features-text-container">
+            <h4 class="features-subtitle features-subtitle-centered">Collaboration Teams</h4>
+            <p class="features-description features-description-centered">Here you can handle projects together with
+              your team
+              virtually.</p>
+          </div>
+        </div>
+        <div class="features-item">
+          <figure class="features-icon">
+            <img src="./images/cloud-storage.svg" loading="lazy" alt="">
+          </figure>
+          <div class="features-text-container">
+            <h4 class="features-subtitle features-subtitle-centered">Cloud Storage</h4>
+            <p class="features-description features-description-centered">No need to worry about storage because we
+              provide
+              storage up to 2 TB.</p>
+          </div>
+        </div>
+        <div class="features-item">
+          <figure class="features-icon">
+            <img src="./images/daily-analytics.svg" loading="lazy" alt="">
+          </figure>
+          <div class="features-text-container">
+            <h4 class="features-subtitle features-subtitle-centered">Daily Analytics</h4>
+            <p class="features-description features-description-centered">We always provide useful information to make
+              it easier
+              for you every day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <!-- Benefits section starts here  ---------------------------------------------------->
+  <div class="content-section hero-banner benefits-section section">
+    <div class="benefits-content">
+      <h1 class="main-heading">What Benefit Will<br>You Get</h1>
+      <div class="benefits-list benefits-list-light">
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt=""
+              class="benefit-icon-image-1"></div>
+          <div class="benefit-description">
+            <h5 class="subheading">Free Consulting With Expert Saving Money</h5>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt=""
+              class="benefit-icon-image-2"></div>
+          <div class="benefit-description">
+            <h5 class="subheading">Online Banking</h5>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt=""
+              class="benefit-icon-image-3"></div>
+          <div class="benefit-description">
+            <h5 class="subheading">Investment Report Every Month</h5>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt=""
+              class="benefit-icon-image-4"></div>
+          <div class="benefit-description">
+            <h5 class="subheading">Saving Money For The Future</h5>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt=""
+              class="benefit-icon-image-5"></div>
+          <div class="benefit-description">
+            <h5 class="subheading">Online Transaction</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-banner-image"><img src="/images/middle.png" sizes="(max-width: 767px) 100vw, 50vw"
+        srcset="./images/middle.png 500w, ./images/bigest.png 661w" class="full-width-image"></div>
+  </div>
+
+  <!-- plan(pricing) section starts here  ------------------------------------------------------>
+  <div class="pricing-section">
+    <h1 class="title-centered smaller-title">Choose Plan<br>That’s Right For You</h1>
+    <p class=" choose-the-plan-text pricing-description-centered ">Choose the plan that works best for you, feel free to
+      contact us</p>
+    <div class="toggle-button-container">
+      <div class="toggle-buttons-container">
+        <button class="plan-option-btn ">Bill Monthly</button>
+        <button class="plan-option-btn active">Bill Yearly</button>
+      </div>
+    </div>
+    <div class="pricing-options ">
+
+
+
+      <div style="margin-left: 10px;" class="pricing-plan pricing-plan-margined-up">
+        <h4 class="plan-title">Free</h4>
+        <p class="plan-description">Have a go and test your<br /> superpowers</p>
+        <h1 class="price-amount">$0</h1>
+        <div class="feature-list">
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <img src="./images/true-icon.svg" class="icon">
             </div>
-            <div class="nav-items">
-              <div class="links nav-links">
-                <a href="#" class="nav-link">Home</a>
-                <a href="#" class="nav-link">Product</a>
-                <a href="#" class="nav-link">FAQ</a>
-                <a href="#" class="nav-link">Blog</a>
-                <a href="#" class="nav-link">About Us</a>
-              </div>
-              <div class="nav-actions">
-                <a href="#" class="nav-link nav-link-button">Login</a>
-                <a href="#" class="button-2 w-button">Sign Up</a>
-              </div>
-            </div>
-            <div class="mobile-menu-toggle">
-              <div class="hamburger-button">
-                <img src="./images/hambarger.svg" alt="Menu Icon" class="hamburger-icon">
-              </div>
-            </div>
-          </nav>
-        </header>
-
-
-
-
-
-     <!-----Hero Section Starts here -------------------------------------------------------------------------------------------------------------------->
-     <section class="section hero-section">
-          <div class="hero-text hero-content">
-            <h1 class="hero-heading">We're here to Increase your Productivity</h1>
-            <img class="hero-vector-image" src="./images/curveLine_VectorImg.svg" alt="">
-            <p class=" hero-description">
-              Let's make your work more organize and easily using the Taskio Dashboard
-              with many of the latest featuresin managing work every day.
-            </p>
-            <div class="hero-actions">
-              <a href="#" class="button-type-1 w-button">
-                Try Free Trial
-              </a>
-              <a href="#" class="link-block w-inline-block">
-                <div class="link-icon-holder">
-                  <img src="./images/Play_vector_Icon.svg" alt="" class="play-img-icon">
-                </div>
-                <p class="paragraph link-paragraph">View Demo</p>
-              </a>
+            <div class="feature-text">
+              <p class="feature-title">2 Users</p>
             </div>
           </div>
-          <figure class="hero-image-container">
-            <img src="./images/Orginal_combined_middle_img.png"
-                 sizes="(max-width: 767px) 100vw, 50vw"
-                 srcset="./images/Combined_middle_img-p-500.png 500w, images/Combined_middle_img.png 710w"
-                 alt=""
-                 class="hero-image-content">
-          </figure>
-        </section>
 
-
-<!-- collabs section starts here -------------------------------------------------------------------------------------------------->
-     <section class="section collabs-section">
-          <h3 class=" collabs-section-header">More than 25,000 teams use Collabs</h3>
-          <figure class="collabs-logos">
-               <div class="collabs-icon"><img src="./images/unsplash.svg" class="collabs-logos-image"></div>
-               <div class="collabs-icon"><img src="./images/notion.svg" class="collabs-logos-image"></div>
-               <div class="collabs-icon"><img src="./images/intercom.svg" class="collabs-logos-image"></div>
-               <div class="collabs-icon"><img src="./images/descript.svg" class="collabs-logos-image"></div>
-               <div class="collabs-icon"><img src="./images/grammarly.svg" class="collabs-logos-image"></div>
-          </figure>
-     </section>
-
-     <!--Rating section starts here -------------------------------------------------------------------------------------------->
-     <section class="section rating">
-          <!-- Left side -->
-          <article class="rating-stars">
-            <h2 class="h2 rating-support-heading">How we support our <br>partner all over the world</h2>
-            <p class="paragraph rating-description">SaaS become a common delivery model for many business application,
-              including office software, messaging software, payroll processing software, DBMS software,
-              management software</p>
-            <ul class="ratings-list">
-              <li class="rating-item">
-                <div class="stars">
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                </div>
-                <p class="paragraph rating-paragraph"><strong>4.9 </strong>/ 5 rating</p>
-                <p class="paragraph"><strong>Databricks</strong></p>
-              </li>
-              <li class="rating-item">
-                <div class="stars">
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/golden-star.svg" alt="Golden star"></div>
-                  <div class="star-holder"><img src="./images/un-colored-star.svg" alt="Uncolored star"></div>
-                </div>
-                <p class="paragraph rating-paragraph"><strong>4.8 </strong>/ 5 rating</p>
-                <p class="paragraph"><strong>Chanalysis</strong></p>
-              </li>
-            </ul>
-          </article>
-        
-          <!-- Right side -->
-          <div class="support-features">
-            <div class="support-item">
-              <div class="support-icon"><img src="./images/publishing-icon.svg" alt="Publishing icon" class="image-13"></div>
-              <div class="support-text">
-                <h4 class="heading-support">Publishing</h4>
-                <p class="paragraph">Plan, collaborate, and publishing your content that drives
-                  meaningful engagement and growth for your brand</p>
-              </div>
-            </div>
-            <div class="support-item">
-              <div class="support-icon"><img src="./images/analytics-icon.svg" alt="Analytics icon" class="image-14"></div>
-              <div class="support-text">
-                <h4 class="heading-support">Analytics</h4>
-                <p class="paragraph">Analyze your performance and create gorgeous reports</p>
-              </div>
-            </div>
-            <div class="support-item">
-              <div class="support-icon"><img src="./images/engagement-icon.svg" alt="Engagement icon" class="image-15"></div>
-              <div class="support-text">
-                <h4 class="heading-support">Engagement</h4>
-                <p class="paragraph">Quickly navigate and engage with your audience</p>
-              </div>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Public Share & Comments</p>
             </div>
           </div>
-        </section>
+
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Chat Support</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">New income apps</p>
+            </div>
+          </div>
+
+          <a href="#" class="button-2 cta-button" style="text-decoration:none">Signup for free</a>
+        </div>
+      </div>
+
+      <!-- Green Plan-->
+      <div class="pricing-plan pricing-plan-green" style="color:#FFFFFF; background-color: #54BD95;">
+        <h4 class="plan-title-green">Pro</h4>
+        <p class="plan-description plan-description-green">Experiment the power <br>of infinite possibilities</p>
+        <h1 class="price-amount" style="color:#FFFFFF; ">$8</h1>
+        <div class="feature-list" style="color: rgb(0, 0, 0); background-color:white;">
+
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <h5 class="feature-title">4 Users</h5>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text features-text-green-plan ">
+              <p class="feature-title">All apps</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text features-text-green-plan">
+              <p class="feature-title">Unlimited editable exports</p>
+            </div>
+          </div>
 
 
-<!-- Features section starts here  ---------------------------------------------------->
-<article class="features-section section">
-     <div class="features-container">
-       <header class="features-header">
-         <h1 class="features-title features-title-centered">Our Features <br>you can get</h1>
-         <p class="features-description features-description-centered paragraph">We offer a variety of interesting features that can help
-           increase your productivity at work and manage your projects easily.</p>
-         
-         <a href="#" class="button-type-1 w-button">Get Started</a>
-       </header>
-       <div class="features-details">
-         <div class="features-item">
-           <figure class="features-icon">
-             <img src="./images/collabration-teams.svg" loading="lazy" alt="">
-           </figure>
-           <div class="features-text-container">
-             <h4 class="features-subtitle features-subtitle-centered">Collaboration Teams</h4>
-             <p class="features-description features-description-centered">Here you can handle projects together with your team
-               virtually.</p>
-           </div>
-         </div>
-         <div class="features-item">
-           <figure class="features-icon">
-             <img src="./images/cloud-storage.svg" loading="lazy" alt="">
-           </figure>
-           <div class="features-text-container">
-             <h4 class="features-subtitle features-subtitle-centered">Cloud Storage</h4>
-             <p class="features-description features-description-centered">No need to worry about storage because we provide
-               storage up to 2 TB.</p>
-           </div>
-         </div>
-         <div class="features-item">
-           <figure class="features-icon">
-             <img src="./images/daily-analytics.svg" loading="lazy" alt="">
-           </figure>
-           <div class="features-text-container">
-             <h4 class="features-subtitle features-subtitle-centered">Daily Analytics</h4>
-             <p class="features-description features-description-centered">We always provide useful information to make it easier
-               for you every day.</p>
-           </div>
-         </div>
-       </div>
-     </div>
-   </article>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text features-text-green-plan">
+              <p class="feature-title">Folders and collaboration</p>
+            </div>
+          </div>
 
 
-<!-- Benefits section starts here  ---------------------------------------------------->
-<div class="content-section hero-banner benefits-section section">
-     <div class="benefits-content">
-       <h1 class="main-heading">What Benefit Will<br>You Get</h1>
-       <div class="benefits-list benefits-list-light">
-         <div class="benefit-item">
-           <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt="" class="benefit-icon-image-1"></div>
-           <div class="benefit-description">
-             <h5 class="subheading">Free Consulting With Expert Saving Money</h5>
-           </div>
-         </div>
-         <div class="benefit-item">
-           <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt="" class="benefit-icon-image-2"></div>
-           <div class="benefit-description">
-             <h5 class="subheading">Online Banking</h5>
-           </div>
-         </div>
-         <div class="benefit-item">
-           <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt="" class="benefit-icon-image-3"></div>
-           <div class="benefit-description">
-             <h5 class="subheading">Investment Report Every Month</h5>
-           </div>
-         </div>
-         <div class="benefit-item">
-           <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt="" class="benefit-icon-image-4"></div>
-           <div class="benefit-description">
-             <h5 class="subheading">Saving Money For The Future</h5>
-           </div>
-         </div>
-         <div class="benefit-item">
-           <div class="benefit-icon"><img src="./images/true-icon.svg" loading="lazy" alt="" class="benefit-icon-image-5"></div>
-           <div class="benefit-description">
-             <h5 class="subheading">Online Transaction</h5>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="hero-banner-image"><img src="/images/middle.png" sizes="(max-width: 767px) 100vw, 50vw" srcset="./images/middle.png 500w, ./images/bigest.png 661w" class="full-width-image"></div>
-   </div>
-   
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text features-text-green-plan">
+              <p class="feature-title">All incoming apps</p>
+            </div>
+          </div>
 
-   
+          <a href="https://biccass.webflow.io/#" class=" button-2 go-to-pro-btn">Go to Pro</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- business plan-->
+
+      <div style="margin-right: 10px;" class="pricing-plan pricing-plan-margined-up">
+        <h4 class="plan-title">Business</h4>
+        <p class="plan-description">Unveil new superpowers <br>and join the Design Leaque</p>
+        <h1 class="price-amount">$16</h1>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">All the features of pro plan</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Account success Manager</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Single Sign-On (SSO)</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Co-conception pogram</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><img src="./images/true-icon.svg" class="icon"></div>
+            <div class="feature-text">
+              <p class="feature-title">Collaboration-Soon</p>
+            </div>
+          </div>
+
+          <!-- Repeat for other features -->
+          <a href="#" class="button-2 cta-button " style="text-decoration:none">Go to Business</a>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- plan(pricing) section ends here  ------------------------------------------------------>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+      const navItems = document.querySelector('.nav-items');
+
+      mobileMenuToggle.addEventListener('click', function () {
+        navItems.classList.toggle('active');
+      });
+    });
+  </script>
+
 </body>
-</html>
 
+</html>

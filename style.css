@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* pre defined --------------------*/
 * {
@@ -9,10 +8,9 @@
 }
 
 html {
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 p {
-	
 	font-size: 1em;
 }
 h1 {
@@ -130,7 +128,7 @@ img {
 	width: 10vw;
 	max-width: none;
 }
-.nav-items{
+.nav-items {
 	display: flex;
 	gap: 10vw;
 	align-items: center;
@@ -209,15 +207,14 @@ img {
 
 /*   Try free trial  button*/
 
-.hero-actions { /* buuton holder */
+.hero-actions {
+	/* buuton holder */
 	grid-column-gap: 2em;
 	grid-row-gap: 2em;
 	align-items: center;
 	margin-top: 4em;
 	display: flex;
 }
-
-
 
 /* view Demo button */
 
@@ -287,77 +284,73 @@ img {
 
 /* Rating section starts here -----------------------*/
 .section.rating {
-    background-color: #f9f8fe;
-    display: flex;
+	background-color: #f9f8fe;
+	display: flex;
 }
 .rating-stars {
-    width: 60%;
-    margin-right: 1em;
+	width: 60%;
+	margin-right: 1em;
 }
 
 .h2 {
-    letter-spacing: .05em;
-    white-space: nowrap;
-    font-size: 3.3em;
-    font-weight: 800;
-    line-height: 1.2;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
+	font-size: 3.3em;
+	font-weight: 800;
+	line-height: 1.2;
 }
 
 .paragraph.rating-description {
-    letter-spacing: .05em;
-    margin-top: 2em;
+	letter-spacing: 0.05em;
+	margin-top: 2em;
 }
 .ratings-list {
-
-    width: 60%;
+	width: 60%;
 	display: flex;
 	gap: 5em;
-    margin-top: 3.5em;
+	margin-top: 3.5em;
 	list-style-type: none;
-    
 }
 .rating-item {
-    width: 50%;
-	
+	width: 50%;
 }
 .stars {
-    display: flex;
-	gap: .3em;
-    margin-bottom: 1em;
+	display: flex;
+	gap: 0.3em;
+	margin-bottom: 1em;
 }
 .paragraph.rating-paragraph {
-    color: #191a15;
-    margin-bottom: .8em;
+	color: #191a15;
+	margin-bottom: 0.8em;
 }
 .rating-item {
-    width: 50%;
+	width: 50%;
 }
 
 /* --right side ----*/
 .support-features {
-    width: 40%;
+	width: 40%;
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+	flex-direction: column;
+	justify-content: space-between;
 }
-.support-item{
-    justify-content: space-between;
-    align-items: flex-start;
-    display: flex;
+.support-item {
+	justify-content: space-between;
+	align-items: flex-start;
+	display: flex;
 }
-.support-icon{
-    width: 10%;
+.support-icon {
+	width: 10%;
 }
 
 .support-text {
-    width: 100%;
-    margin-left: 1em;
+	width: 100%;
+	margin-left: 1em;
 }
 
 .heading-support {
-    margin-bottom: .5em;
-    font-size: 1.5em;
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
 }
 
 /*--- features section starts here */
@@ -379,7 +372,7 @@ img {
 }
 
 .features-title {
-	letter-spacing: .05em;
+	letter-spacing: 0.05em;
 	white-space: nowrap;
 	font-size: 3.3em;
 	font-weight: 800;
@@ -396,7 +389,7 @@ img {
 	cursor: pointer;
 	flex-direction: column;
 	align-items: center;
-	transition: all .2s;
+	transition: all 0.2s;
 	display: flex;
 }
 
@@ -410,158 +403,273 @@ img {
 }
 
 .features-subtitle {
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	font-size: 1.5em;
 }
 
 /* benifits section starts here ----*/
 
 .content-section.hero-banner.benefits-section {
-    background-color: #fff;
-    background-image: none;
+	background-color: #fff;
+	background-image: none;
 }
 
 .benefits-content {
-    width: 50%;
+	width: 50%;
 }
 
 .main-heading {
-    letter-spacing: .05em;
-    white-space: nowrap;
-    font-size: 3.3em;
-    font-weight: 800;
-    line-height: 1.2;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
+	font-size: 3.3em;
+	font-weight: 800;
+	line-height: 1.2;
 }
 
 .benefits-list.benefits-list-light {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .benefits-list {
-    background-color: #f9fafb;
-    margin-top: 4em;
+	background-color: #f9fafb;
+	margin-top: 4em;
 }
 
 .benefit-item {
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1.5em;
-    display: flex;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 1.5em;
+	display: flex;
 }
 
-.benefit-icon-image-1, .benefit-icon-image-2, .benefit-icon-image-3, .benefit-icon-image-4, .benefit-icon-image-5 {
-    width: 1.5vw;
-    max-width: none;
+.benefit-icon-image-1,
+.benefit-icon-image-2,
+.benefit-icon-image-3,
+.benefit-icon-image-4,
+.benefit-icon-image-5 {
+	width: 1.5vw;
+	max-width: none;
 }
 
 .subheading {
-    white-space: nowrap;
-    font-size: 1.2em;
-    font-weight: 500;
+	white-space: nowrap;
+	font-size: 1.2em;
+	font-weight: 500;
 }
 
 .hero-banner-image {
-    width: 63%;
-    margin-right: -10vw;
+	width: 63%;
+	margin-right: -10vw;
 }
 
 .full-width-image {
-    width: 100%;
-    max-width: none;
+	width: 100%;
+	max-width: none;
 }
 
 .content-section.hero-banner {
-    background-color: #f2f5f2;
-    background-image: radial-gradient(circle at 0 0, #daefeb, #f2f5f2);
-    align-items: center;
-    display: flex;
+	background-color: #f2f5f2;
+	background-image: radial-gradient(circle at 0 0, #daefeb, #f2f5f2);
+	align-items: center;
+	display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* pricing section starts here */
+.pricing-section {
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+.title-centered {
+	text-align: center;
+}
+.title-centered.smaller-title {
+	font-family: Inter;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 73px;
+	text-align: center;
+}
+.choose-the-plan-text {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.78px;
+	text-align: center;
+	color: #a6a6a6;
+}
+
+.pricing-description-centered {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.toggle-button-container {
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.toggle-buttons-container {
+	display: inline-flex;
+	padding: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.plan-option-btn {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	padding: 0.8em 2em;
+	border: none;
+	cursor: pointer;
+	background-color: #ffffff;
+	color: #000;
+	border-radius: 10px;
+	transition: transform 0.5s ease, background-color 0.3s ease;
+}
+
+.plan-option-btn.active {
+	background: #54bd95;
+	/* Active button background color */
+	color: #ffffff;
+}
+
+.plan-option-btn.active:hover {
+	transform: scale(1.1);
+}
+
+.plan-option-btn:not(.active):hover {
+	background-color: #f0f4f8;
+}
+
+/* pricing section ends here */
+.pricing-options {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	gap: 1.2em;
+	overflow-x: hidden;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	scrollbar-color: #54bd95 #ffffff;
+	scroll-margin: 10px;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: thin;
+	scroll-behavior: smooth;
+	transition: transform 0.5s ease;
+	padding: 15px 0;
+}
+.pricing-plan {
+	text-align: center;
+	border-radius: 2em;
+	padding: 3em 1.3em 0.3em 1.3em;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+	transition: transform 0.5s ease, box-shadow 0.5s ease;
+	/* Smooth transition for zoom and shadow */
+}
+
+.pricing-plan:hover {
+	transform: scale(1.05);
+	/* Scales the card to 105% of its original size */
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	/* Optional: Add a larger shadow on hover */
+}
+.pricing-plan-margined-up {
+	margin-top: 20px;
+	padding: 3em 0.8em 1em 0.8em;
+}
+.plan-title {
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+}
+.plan-title-green {
+	margin-bottom: 0.5em;
+	font-size: 2.5em;
+}
+
+.plan-description {
+	color: #a6a6a6;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+.price-amount {
+	margin: 0.5em 0;
+	font-size: 2.5em;
+}
+
+.feature-list {
+	min-width: 340px;
+	border-radius: 2em;
+	margin-top: 0;
+	padding: 2em 2em;
+	border-radius: 1em;
+}
+.feature-item {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 1em;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+}
+.icon {
+	width: 1.5vw;
+	max-width: none;
+}
+
+.feature-title {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+}
+.cta-button {
+	color: #54bd95;
+	background-color: #fff;
+	border-radius: 0.7em;
+	margin-top: 1rem;
+	padding: 0.7em 3em;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.pricing-plan-green {
+	padding: 3em 1.5em 0.3em 1.5em;
+}
+.plan-description-green {
+	color: #ffffff;
+}
+
+.features-text-green-plan {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+}
+
+.go-to-pro-btn {
+	margin-top: 1rem;
+	padding: 0.7em 4.3em;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.go-to-pro-btn:hover {
+	outline-offset: 0px;
+	color: #54bd95;
+	background-color: #f2f5f2;
+	outline: 1px solid #54bd95;
+}
 
 /* ------------------- media queries start here ----------------------------------------------------------------------*/
 @media only screen and (min-width: 1440px) {
@@ -569,7 +677,6 @@ img {
 		font-size: 14.4px;
 	}
 }
-
 
 @media screen and (max-width: 991px) {
 	body {
@@ -617,12 +724,13 @@ img {
 		font-size: 2.5vw;
 	}
 	/* nav section stars here --------------max-width: 767px------------*/
-	.brand{
+	.brand {
 		z-index: 200;
 		position: relative;
 	}
-	.nav-items{
-		z-index: 0;
+
+	.nav-items {
+		z-index: 100;
 		height: 0;
 		background-color: #161c28;
 		flex-direction: column;
@@ -632,11 +740,15 @@ img {
 		padding-right: 10vw;
 		display: flex;
 		position: absolute;
-		top: 0%;
-		bottom: auto;
-		left: 0%;
-		right: 0%;
+		top: 0;
+		left: 0;
+		right: 0;
 		overflow: hidden;
+		transition: height 0.3s ease-in-out;
+	}
+
+	.nav-items.active {
+		height: 100vh;
 	}
 
 	.nav-links {
@@ -644,14 +756,18 @@ img {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+
 	.nav-actions {
 		width: 100%;
 		justify-content: center;
 	}
+
 	.nav-link {
 		width: 100%;
 		border-bottom: 1px solid #a6a6a6;
+		color: #f2f5f2;
 	}
+
 	.nav-link.nav-link-button {
 		width: auto;
 		color: #f2f5f2;
@@ -665,12 +781,14 @@ img {
 	.logo-img {
 		width: 25vw;
 	}
-	.mobile-menu-toggle{
+
+	.mobile-menu-toggle {
 		z-index: 200;
 		padding-top: 0.5em;
 		display: block;
 		position: relative;
 	}
+
 	.hamburger-button {
 		width: 2.4em;
 	}
@@ -687,7 +805,8 @@ img {
 		display: none;
 	}
 
-	.hero-heading { /* h1*/
+	.hero-heading {
+		/* h1*/
 		font-size: 4.6em;
 		font-weight: 600;
 		line-height: 0.5em;
@@ -706,92 +825,115 @@ img {
 		width: 100%;
 	}
 
-/* rating section starts here -------------max-width: 767px----------*/
-.section.rating {
-	flex-direction: column;
-	align-items: center;
-}
+	/* rating section starts here -------------max-width: 767px----------*/
+	.section.rating {
+		flex-direction: column;
+		align-items: center;
+	}
 
-.rating-stars {
-	width: 100%;
-	text-align: center;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 4em;
-	margin-right: 0;
-	display: flex;
-}
-.h2 {
-	font-size: 2.4em;
-}
+	.rating-stars {
+		width: 100%;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 4em;
+		margin-right: 0;
+		display: flex;
+	}
+	.h2 {
+		font-size: 2.4em;
+	}
 
-.rating-stars {  /* --- delete if there is no need */
-	width: 100%;
-	text-align: center;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 4em;
-	margin-right: 0;
-	display: flex;
-}
+	.rating-stars {
+		/* --- delete if there is no need */
+		width: 100%;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 4em;
+		margin-right: 0;
+		display: flex;
+	}
 
-/* right side of rating section starts here -------------max-width: 767px----------*/
-.support-features {
-	width: 100%;
-}
-.support-item {
-	margin-bottom: 2em;
-}
-/* features section starts here -------------max-width: 767px----------*/
-.features-header {
-	flex-direction: column;
-	gap: 3em;
-}
+	/* right side of rating section starts here -------------max-width: 767px----------*/
+	.support-features {
+		width: 100%;
+	}
+	.support-item {
+		margin-bottom: 2em;
+	}
+	/* features section starts here -------------max-width: 767px----------*/
+	.features-header {
+		flex-direction: column;
+		gap: 3em;
+	}
 
-.features-title {
-	font-size: 2.4em;
-}
+	.features-title {
+		font-size: 2.4em;
+	}
 
-.features-description-centered {
-	text-align: center;
-}
+	.features-description-centered {
+		text-align: center;
+	}
 
-.features-details {
-	grid-column-gap: 1.5em;
-	grid-row-gap: 1.5em;
-	flex-direction: column;
-}
+	.features-details {
+		grid-column-gap: 1.5em;
+		grid-row-gap: 1.5em;
+		flex-direction: column;
+	}
 
-.features-item {
-	width: 100%;
-	grid-column-gap: 1.5em;
-	grid-row-gap: 1.5em;
-	flex-direction: row;
-}
-/* benefits section starts here -------------max-width: 767px----------*/
+	.features-item {
+		width: 100%;
+		grid-column-gap: 1.5em;
+		grid-row-gap: 1.5em;
+		flex-direction: row;
+	}
+	/* benefits section starts here -------------max-width: 767px----------*/
 
-.benefits-content {
-    width: 100%;
-    text-align: center;
-  }
-  .main-heading {
-    font-size: 2.4em;
-  }
-  .benefit-item {
-    align-items: flex-start;
-  }
-  .benefit-icon-image-1, .benefit-icon-image-2, .benefit-icon-image-3, .benefit-icon-image-4, .benefit-icon-image-5 {
-    width: 3vw;
-  }
-  .subheading {
-    font-size: 1.3em;
-  }
-  
-  .hero-banner-image {
-    display: none;
-  }
-}
+	.benefits-content {
+		width: 100%;
+		text-align: center;
+	}
+	.main-heading {
+		font-size: 2.4em;
+	}
+	.benefit-item {
+		align-items: flex-start;
+	}
+	.benefit-icon-image-1,
+	.benefit-icon-image-2,
+	.benefit-icon-image-3,
+	.benefit-icon-image-4,
+	.benefit-icon-image-5 {
+		width: 3vw;
+	}
+	.subheading {
+		font-size: 1.3em;
+	}
 
+	.hero-banner-image {
+		display: none;
+	}
+
+	/* pricing section starts here -------------max-width: 767px----------*/
+	.pricing-options {
+		flex-direction: column;
+		gap: 1em;
+		padding: 10px;
+	}
+	.pricing-plan {
+		margin-top: 20px;
+	}
+	.feature-item {
+		align-items: flex-start;
+	}
+	.icon {
+		width: 3vw;
+	}
+	.feature-title {
+		font-size: 1.3em;
+	}
+}
 
 @media screen and (max-width: 479px) {
 	.body {
@@ -804,11 +946,12 @@ img {
 		line-height: 1.2;
 	}
 
-	.hero-heading { /* h1*/
+	.hero-heading {
+		/* h1*/
 		font-size: 2.8em;
 	}
 
-	.hero-description{
+	.hero-description {
 		font-size: 1.2em;
 	}
 
@@ -847,44 +990,85 @@ img {
 		width: 15vw;
 	}
 
-/* rating section starts here -------------max-width: 479px----------*/
-.h2.rating-support-heading {
-	white-space: normal;
-	font-size: 2.1em;
-}
+	/* rating section starts here -------------max-width: 479px----------*/
+	.h2.rating-support-heading {
+		white-space: normal;
+		font-size: 2.1em;
+	}
 
-.ratings-list {
-	width: 100%;
-}
+	.ratings-list {
+		width: 100%;
+	}
 
-.image-13, .image-14, .image-15 {
-	width: 10vw;
-	max-width: none;
-}
-/* feature section starts here -------------max-width: 479px----------*/
-.features-header {
-	gap: 2em;
-	margin-bottom: 6em;
-}
+	.image-13,
+	.image-14,
+	.image-15 {
+		width: 10vw;
+		max-width: none;
+	}
+	/* feature section starts here -------------max-width: 479px----------*/
+	.features-header {
+		gap: 2em;
+		margin-bottom: 6em;
+	}
 
-.features-item {
-	flex-direction: column-reverse;
-	margin-bottom: 1em;
-}
+	.features-item {
+		flex-direction: column-reverse;
+		margin-bottom: 1em;
+	}
 
-.features-subtitle-centered {
-	text-align: center;
-}
+	.features-subtitle-centered {
+		text-align: center;
+	}
 
-.features-text-container {
-	margin-bottom: -1em;
-}
+	.features-text-container {
+		margin-bottom: -1em;
+	}
 
-/* benefits section starts here -------------max-width: 479px----------*/
+	/* benefits section starts here -------------max-width: 479px----------*/
 
-.subheading {
-    text-align: left;
-    white-space: normal;
-  }
+	.subheading {
+		text-align: left;
+		white-space: normal;
+	}
 
+	/* pricing section starts here -------------max-width: 479px----------*/
+
+	.smaller-title {
+		font-size: 2.1em;
+	}
+	.plan-description {
+		font-size: 1.5em;
+		line-height: 1.5;
+		white-space: normal;
+	}
+	.feature-list {
+		min-width: 200px;
+		border-radius: 2em;
+		margin-top: 0;
+		padding: 2em 2em;
+		border-radius: 1em;
+	}
+	.feature-title {
+		text-align: left;
+		white-space: normal;
+		font-size: 1em;
+	}
+
+	.cta-button {
+		border-radius: 0.4em;
+		margin-top: 1rem;
+		padding: 0.1em 2.5em;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 30px;
+	}
+	.go-to-pro-btn {
+		border-radius: 0.4em;
+		margin-top: 1rem;
+		padding: 0.1em 2.5em;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 30px;
+	}
 }
