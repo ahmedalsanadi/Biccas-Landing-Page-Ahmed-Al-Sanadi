@@ -10,15 +10,18 @@
 html {
 	font-family: 'Inter', sans-serif;
 }
+
 p {
 	font-size: 1em;
 }
+
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: 700;
 	line-height: 1.4;
 }
+
 h3 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -94,12 +97,14 @@ img {
 	cursor: pointer;
 	transition: all 0.3s;
 }
+
 .button-2:hover {
 	outline-offset: 0px;
 	color: #54bd95;
 	background-color: #f2f5f2;
 	outline: 1px solid #54bd95;
 }
+
 .button {
 	font-size: 1.2em;
 }
@@ -128,30 +133,35 @@ img {
 	width: 10vw;
 	max-width: none;
 }
+
 .nav-items {
 	display: flex;
 	gap: 10vw;
 	align-items: center;
 }
+
 .nav-links {
 	display: flex;
 	gap: 2em;
 	align-items: center;
 	line-height: 1.7;
 }
+
 .nav-links {
 	color: #a6a6a6;
 	font-size: 1.2em;
 	font-weight: 600;
 	transition: all 0.2s;
 }
+
 .nav-link {
 	color: #a6a6a6;
 	font-size: 1.2em;
 	font-weight: 600;
 	cursor: pointer;
 	transition: all 270ms ease-in-out;
-	text-decoration: none; /* Remove underline for better visual */
+	text-decoration: none;
+	/* Remove underline for better visual */
 }
 
 .nav-link:hover {
@@ -169,6 +179,7 @@ img {
 	align-items: stretch;
 	display: none;
 }
+
 /* Hero section starts here ---------------------------------------------------------------------------------------*/
 .section.hero-section {
 	display: flex;
@@ -181,6 +192,7 @@ img {
 .hero-content {
 	width: 50%;
 }
+
 .hero-content .hero-heading {
 	font-size: 5em;
 	font-weight: 900;
@@ -237,7 +249,8 @@ img {
 }
 
 .play-img-icon {
-	width: 2vw; /* play vector img */
+	width: 2vw;
+	/* play vector img */
 	max-width: 28.8px;
 	max-height: 28.8px;
 	min-width: 17.6px;
@@ -253,6 +266,7 @@ img {
 	margin-right: -10vw;
 	margin-bottom: 10px;
 }
+
 .hero-image-content {
 	/* img middle big image*/
 	width: 100%;
@@ -266,7 +280,10 @@ img {
 	background-color: #f2f5f2;
 	background-image: radial-gradient(circle at 0 100%, #daefeb, #f2f5f2);
 }
-.collabs-section-header /* h3*/ {
+
+.collabs-section-header
+
+/* h3*/ {
 	text-align: center;
 	font-size: 2.5em;
 }
@@ -287,6 +304,7 @@ img {
 	background-color: #f9f8fe;
 	display: flex;
 }
+
 .rating-stars {
 	width: 60%;
 	margin-right: 1em;
@@ -304,6 +322,7 @@ img {
 	letter-spacing: 0.05em;
 	margin-top: 2em;
 }
+
 .ratings-list {
 	width: 60%;
 	display: flex;
@@ -311,18 +330,22 @@ img {
 	margin-top: 3.5em;
 	list-style-type: none;
 }
+
 .rating-item {
 	width: 50%;
 }
+
 .stars {
 	display: flex;
 	gap: 0.3em;
 	margin-bottom: 1em;
 }
+
 .paragraph.rating-paragraph {
 	color: #191a15;
 	margin-bottom: 0.8em;
 }
+
 .rating-item {
 	width: 50%;
 }
@@ -334,11 +357,13 @@ img {
 	flex-direction: column;
 	justify-content: space-between;
 }
+
 .support-item {
 	justify-content: space-between;
 	align-items: flex-start;
 	display: flex;
 }
+
 .support-icon {
 	width: 10%;
 }
@@ -481,9 +506,11 @@ img {
 	padding-left: 10vw;
 	padding-right: 10vw;
 }
+
 .title-centered {
 	text-align: center;
 }
+
 .title-centered.smaller-title {
 	font-family: Inter;
 	font-size: 50px;
@@ -491,6 +518,7 @@ img {
 	line-height: 73px;
 	text-align: center;
 }
+
 .choose-the-plan-text {
 	font-family: Inter;
 	font-size: 18px;
@@ -505,16 +533,19 @@ img {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+
 .toggle-button-container {
 	text-align: center;
 	padding: 10px;
 	border-radius: 10px;
 }
+
 .toggle-buttons-container {
 	display: inline-flex;
 	padding: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .plan-option-btn {
 	font-family: Inter;
 	font-size: 18px;
@@ -563,6 +594,7 @@ img {
 	transition: transform 0.5s ease;
 	padding: 15px 0;
 }
+
 .pricing-plan {
 	text-align: center;
 	border-radius: 2em;
@@ -578,14 +610,17 @@ img {
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	/* Optional: Add a larger shadow on hover */
 }
+
 .pricing-plan-margined-up {
 	margin-top: 20px;
 	padding: 3em 0.8em 1em 0.8em;
 }
+
 .plan-title {
 	margin-bottom: 0.5em;
 	font-size: 1.5em;
 }
+
 .plan-title-green {
 	margin-bottom: 0.5em;
 	font-size: 2.5em;
@@ -596,6 +631,7 @@ img {
 	font-size: 1.5em;
 	font-weight: 500;
 }
+
 .price-amount {
 	margin: 0.5em 0;
 	font-size: 2.5em;
@@ -608,6 +644,7 @@ img {
 	padding: 2em 2em;
 	border-radius: 1em;
 }
+
 .feature-item {
 	display: flex;
 	gap: 10px;
@@ -618,6 +655,7 @@ img {
 	line-height: 30px;
 	text-align: left;
 }
+
 .icon {
 	width: 1.5vw;
 	max-width: none;
@@ -630,6 +668,7 @@ img {
 	line-height: 30px;
 	text-align: left;
 }
+
 .cta-button {
 	color: #54bd95;
 	background-color: #fff;
@@ -641,9 +680,11 @@ img {
 	font-weight: 600;
 	line-height: 30px;
 }
+
 .pricing-plan-green {
 	padding: 3em 1.5em 0.3em 1.5em;
 }
+
 .plan-description-green {
 	color: #ffffff;
 }
@@ -682,13 +723,16 @@ img {
 	body {
 		font-size: 14px;
 	}
+
 	.body {
 		font-size: 1vw;
 	}
+
 	/* nav section stars here --------------max-width: 991px------------*/
 	.nav-link:hover {
 		color: #a6a6a6;
 	}
+
 	.button-2:hover {
 		color: #f2f5f2;
 		background-color: #54bd95;
@@ -714,6 +758,7 @@ img {
 		outline-width: 0;
 		transform: none;
 	}
+
 	.link-block-2:hover {
 		border-bottom-style: none;
 	}
@@ -723,6 +768,7 @@ img {
 	.body {
 		font-size: 2.5vw;
 	}
+
 	/* nav section stars here --------------max-width: 767px------------*/
 	.brand {
 		z-index: 200;
@@ -792,6 +838,7 @@ img {
 	.hamburger-button {
 		width: 2.4em;
 	}
+
 	/* ---hero section starts here max-width: 767px-----*/
 
 	.hero-content {
@@ -811,6 +858,7 @@ img {
 		font-weight: 600;
 		line-height: 0.5em;
 	}
+
 	.button-2 {
 		white-space: nowrap;
 	}
@@ -821,6 +869,7 @@ img {
 		/* h3*/
 		font-size: 1.7em;
 	}
+
 	.collabs-logos-image {
 		width: 100%;
 	}
@@ -840,6 +889,7 @@ img {
 		margin-right: 0;
 		display: flex;
 	}
+
 	.h2 {
 		font-size: 2.4em;
 	}
@@ -859,9 +909,11 @@ img {
 	.support-features {
 		width: 100%;
 	}
+
 	.support-item {
 		margin-bottom: 2em;
 	}
+
 	/* features section starts here -------------max-width: 767px----------*/
 	.features-header {
 		flex-direction: column;
@@ -888,18 +940,22 @@ img {
 		grid-row-gap: 1.5em;
 		flex-direction: row;
 	}
+
 	/* benefits section starts here -------------max-width: 767px----------*/
 
 	.benefits-content {
 		width: 100%;
 		text-align: center;
 	}
+
 	.main-heading {
 		font-size: 2.4em;
 	}
+
 	.benefit-item {
 		align-items: flex-start;
 	}
+
 	.benefit-icon-image-1,
 	.benefit-icon-image-2,
 	.benefit-icon-image-3,
@@ -907,6 +963,7 @@ img {
 	.benefit-icon-image-5 {
 		width: 3vw;
 	}
+
 	.subheading {
 		font-size: 1.3em;
 	}
@@ -921,15 +978,19 @@ img {
 		gap: 1em;
 		padding: 10px;
 	}
+
 	.pricing-plan {
 		margin-top: 20px;
 	}
+
 	.feature-item {
 		align-items: flex-start;
 	}
+
 	.icon {
 		width: 3vw;
 	}
+
 	.feature-title {
 		font-size: 1.3em;
 	}
@@ -939,6 +1000,7 @@ img {
 	.body {
 		font-size: 3.5vw;
 	}
+
 	/* hero section starts here------- max-width: 479px */
 	.hero-content .hero-heading {
 		font-size: 3.3em;
@@ -959,6 +1021,7 @@ img {
 		white-space: nowrap;
 		font-size: 1.1em;
 	}
+
 	.button-type-1 {
 		font-size: 1.1em;
 	}
@@ -1006,6 +1069,7 @@ img {
 		width: 10vw;
 		max-width: none;
 	}
+
 	/* feature section starts here -------------max-width: 479px----------*/
 	.features-header {
 		gap: 2em;
@@ -1037,11 +1101,13 @@ img {
 	.smaller-title {
 		font-size: 2.1em;
 	}
+
 	.plan-description {
 		font-size: 1.5em;
 		line-height: 1.5;
 		white-space: normal;
 	}
+
 	.feature-list {
 		min-width: 200px;
 		border-radius: 2em;
@@ -1049,6 +1115,7 @@ img {
 		padding: 2em 2em;
 		border-radius: 1em;
 	}
+
 	.feature-title {
 		text-align: left;
 		white-space: normal;
@@ -1063,6 +1130,7 @@ img {
 		font-weight: 500;
 		line-height: 30px;
 	}
+
 	.go-to-pro-btn {
 		border-radius: 0.4em;
 		margin-top: 1rem;
