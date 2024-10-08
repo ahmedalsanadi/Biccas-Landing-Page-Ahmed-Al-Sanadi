@@ -712,6 +712,133 @@ img {
 	outline: 1px solid #54bd95;
 }
 
+/* pre-footer section starts here */
+
+.section.pre-footer {
+	background-color: #161c28;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.reviews {
+	width: 40%;
+}
+.pre-footer-heading {
+	font-size: 2.4em;
+	letter-spacing: 0.05em;
+	white-space: nowrap;
+	font-size: 3.3em;
+	font-weight: 800;
+	line-height: 1.2;
+	color: #f2f5f2;
+	margin-bottom: 1em;
+}
+
+.pre-footer-images {
+	justify-content: space-between;
+	margin-top: 4em;
+	display: flex;
+}
+.userImg {
+	width: 4.5vw;
+	max-width: none;
+}
+
+.request-demo {
+	width: 50%;
+	text-align: center;
+	background-color: #222938;
+	border-radius: 2em;
+	padding: 2em;
+}
+
+.footer-images {
+	justify-content: space-between;
+	margin-top: 4em;
+	display: flex;
+}
+
+.vectorImg {
+	width: 5vw;
+	max-width: none;
+}
+.h4 {
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.h4.pre-footer-heading {
+	color: #f2f5f2;
+	margin-top: 0.5em;
+	font-size: 2em;
+}
+
+.pre-footer-form {
+	margin: 0 0 15px;
+}
+
+.form-labels {
+	color: #f2f5f2;
+	text-align: left;
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+	display: block;
+}
+.form-inputs {
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 1em;
+	border: 1px solid #ccc;
+	margin-bottom: 2em;
+	padding: 1.5em;
+	line-height: 1.5;
+	display: block;
+	font-size: 1.2em;
+}
+.submit-button {
+	width: 100%;
+	background-color: #54bd95;
+	border-radius: 1em;
+	padding: 0.5em;
+	font-size: 1.5em;
+	font-weight: 700;
+	transition: all 0.3s;
+}
+.submit-button:hover {
+	outline-offset: 0px;
+	color: #54bd95;
+	background-color: #f2f5f2;
+	outline: 1px solid #54bd95;
+}
+
+.start-free-trail {
+	justify-content: flex-end;
+	align-items: flex-start;
+	display: flex;
+}
+.start-free-trail-link {
+	grid-column-gap: 0.25em;
+	grid-row-gap: 0.25em;
+	display: flex;
+	font-size: 1em;
+	line-height: 1.6;
+	margin-top: 1.5em;
+	color: #f2f5f2;
+	text-decoration: none;
+}
+.pre-footer-paragraph-link:hover {
+	text-decoration: underline;
+}
+
+.pre-footer-paragraph-link {
+	color: #f9f8fe;
+	font-size: 1em;
+}
+
 /* ------------------- media queries start here ----------------------------------------------------------------------*/
 @media only screen and (min-width: 1440px) {
 	body {
@@ -993,6 +1120,30 @@ img {
 
 	.feature-title {
 		font-size: 1.3em;
+	}
+
+	/*pre-footer section starts here -------------max-width: 767px----------*/
+	.section.pre-footer {
+		flex-direction: column;
+	}
+
+	.reviews {
+		width: 100%;
+		margin-bottom: 4em;
+	}
+	.pre-footer-images {
+		width: 50%;
+	}
+	.userImg {
+		width: 6vw;
+	}
+
+	.pre-footer-heading {
+		font-size: 2.4em;
+		text-align: center;
+	}
+	.request-demo {
+		width: 100%;
 	}
 }
 
